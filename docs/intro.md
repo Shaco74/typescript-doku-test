@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Tutorial Intro
@@ -16,7 +16,7 @@ Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new
 
 Generate a new Docusaurus site using the **classic template**:
 
-```bash
+```shell
 npm init docusaurus@latest my-website classic
 ```
 
@@ -24,7 +24,7 @@ npm init docusaurus@latest my-website classic
 
 Run the development server:
 
-```bash
+```shell
 cd my-website
 
 npx docusaurus start
