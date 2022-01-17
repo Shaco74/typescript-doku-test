@@ -9,7 +9,7 @@ sidebar_position: 2
 Genauso wie TypeScript einer Variabel einen Typen zuweist, indem es den Typ des zuzuweisenden Wertes erkennt.
 Erkennt auch Typescript um welchen Typen von Rückgabewert es sich handelt.
 
-### Beispiel:
+#### Beispiel:
 
 ```ts
 function random() {
@@ -25,7 +25,7 @@ console.log(typeof num);
 
 man kann zwischen der schließenden runden Klammer und der öffnenden geschweiften Klammer einer Funktion einen **expliziten Typen des Rückgabewert definieren**
 
-### Beispiel:
+#### Beispiel:
 
 ```ts
 function random(): number {

@@ -10,7 +10,7 @@ Alternativ, können Variablen mit Hilfe eines **Doppelpunktes** einen Typ zugewi
 
 Wird eine Variabel **ohne Wert initialisiert**, wird sie auch **nur dann als any Type zugelassen** und kann mit verschiedenen Datentypen beliebig oft beschrieben werden.
 
-### Beispiel:
+#### Beispiel:
 
 ```ts
 //  Variabel des Typen any

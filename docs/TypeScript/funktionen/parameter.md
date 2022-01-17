@@ -6,25 +6,21 @@ sidebar_position: 1
 
 Um **Fehler Vorzubeugen**, indem Funktionen mit **falsche Datentypen** aufgerufen werden, können **Parameter in Funktionen auch Typen assigned** werden.
 
-### Beispiel:
+#### Beispiel:
 
 ```ts
 function print_length(word: string) {
   console.log(word + " ist " + word.length + " Zeichen lang.");
 }
-```
 
-```ts
-print_length("seb");
-```
+//gültiger Aufruf
+print_length("Hallo");
 
-> gültiger Aufruf
-
-```ts
+//Ungültiger Aufruf, wird in JavaScript nicht erkannt. 
+//Kann zu Error führen
 print_length(232);
 ```
 
-> Ungültiger Aufruf, wird in JavaScript nicht erkannt und wird als "undefined" behandelt, kann ich production zu einem fatalem error führen.
 
 :::info Info
 In TypeScript wird dieser Fehler schon vorher abgefangen und highlighted "argument is not assignable.." und compiled erst gar nicht.
@@ -48,4 +44,19 @@ Parameter können auch in TypeScript optional sein, indem nach dem Parameter noc
 function greet(name = "User") {
   console.log(`Hallo, ${name}!`);
 }
+```
+
+## Rest Parameter
+Der Rest Parameter dient dem Zweck, beliebig viele Parameter einer Funktion zu übergeben. Dieser Rest Parameter kann einen Array eines expliziten Types haben oder auch ein Array vom Typ any sein.
+```ts
+// Rest Parameter vom Typ number (explizit)
+function addAllTogether(...numbers: number[]): number{ 
+    let result: number = 0;
+    for(num of numbers)
+      result += num;
+    return result;
+ }
+
+// Rest Parameter vom Typ any
+function printAll(...parameters): void{ ... }
 ```

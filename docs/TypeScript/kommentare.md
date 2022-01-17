@@ -12,7 +12,7 @@ Abseits von den standardmäßigen inline Kommentaren und Kommentarblöcken wie m
 
 :::
 
-### Beispiel:
+#### Beispiel:
 
 ```ts
 //  normales in-line Kommentar

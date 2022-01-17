@@ -12,7 +12,7 @@ In der Config, kann festgelegt werden, wie **streng/strict** unsere TypeScript C
 
 [Offizielle Typescript Dokumentation](https://www.typescriptlang.org/tsconfig)
 
-### Beispielhafte config Datei:
+#### Beispielhafte config Datei:
 
 ```json
 {
