@@ -16,4 +16,6 @@ TypeScript kann mit Hilfe von Plug-ins in verschiedene Build-Management-Tools in
 
 ## Guides / Tutorials / Resources
 
-- [Codecademy free Course](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiw_ZCw_bD1AhXq8rsIHXFbAh0QFnoECBIQAQ&url=https%3A%2F%2Fwww.codecademy.com%2Flearn%2Flearn-typescript&usg=AOvVaw3iJn4C83fm7IkW7VAQ0EvT)
+- [Codecademy kostenloser TypeScript Kurs](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiw_ZCw_bD1AhXq8rsIHXFbAh0QFnoECBIQAQ&url=https%3A%2F%2Fwww.codecademy.com%2Flearn%2Flearn-typescript&usg=AOvVaw3iJn4C83fm7IkW7VAQ0EvT)
+- [Codecademy Cheatsheets](https://www.codecademy.com/learn/paths/learn-typescript/tracks/learn-typescript/modules/learn-typescript-types/cheatsheet)
+
